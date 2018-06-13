@@ -1,0 +1,36 @@
+body {
+    background-image: url(../images/circles-light.png);
+}
+
+.content1
+{
+    display: inline-block;
+    width: 960px;
+    height: 400px;
+    padding: 5px 5px;
+    border: .5px solid #dddddd;
+    background-color: white;
+    position: fixed;
+    left: 154px;
+}
+
+#propic
+{
+    height: 150px;
+    width: 17%;
+    float: left;
+    padding: 20px;
+}
+
+.header {
+border-bottom-style: solid;
+border-bottom-width: 3px;
+border-bottom-color: #dddddd;
+border-spacing: 15px;
+width: 900px;
+margin: 0px 10px 0px 10px;
+color: #4aaaa5;
+font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
