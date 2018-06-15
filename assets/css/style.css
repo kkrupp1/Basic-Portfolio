@@ -12,6 +12,7 @@ body {
     background-color: #fff;
     position: fixed;
     left: 208px;
+    top: 150px;
 }
 
 #propic
@@ -36,6 +37,31 @@ font-family: 'Georgia', Times, Times New Roman, serif;
 h1 {
     background-color: #4aaaa5;
     color: #fff;
+    width: 200px;
+    position: fixed;
+    left: 208px;
+    top: 1px;
+    text-align: center;
+    height: 100px;
 }
 
 
+
+
+.AboutLink {
+    position:fixed;
+    right:300px;
+    top:70px;
+}
+
+.PortfolioLink {
+    position:fixed;
+    right:200px;
+    top:70px;
+}
+
+.ContactLink {
+    position:fixed;
+    right:100px;
+    top:70px;
+}
