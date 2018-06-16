@@ -1,5 +1,6 @@
 body {
     background-image: url(../images/circles-light.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .content1
@@ -7,12 +8,31 @@ body {
     display: inline-block;
     width: 960px;
     height: 400px;
-    padding: 5px 5px;
+    padding: 10px;
     border: .5px solid #dddddd;
     background-color: #fff;
     position: fixed;
     left: 208px;
     top: 150px;
+    
+}
+
+.content3
+{
+    display: inline-block;
+    width: 960px;
+    height: 800px;
+    padding: 10px;
+    border: .5px solid #dddddd;
+    background-color: #fff;
+    position: fixed;
+    left: 208px;
+    top: 150px;
+    
+}
+
+p {
+    padding: 10px;
 }
 
 #propic
@@ -43,25 +63,126 @@ h1 {
     top: 1px;
     text-align: center;
     height: 100px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.bannertop {
+    display:inline-block;
+    width: 100%;
+    height: 115px;
+}
+
+.bannerbottom {
+        display: inline-block;
+        width: 100%;
+        height: 75%x;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+a:link {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+a:active {
+    text-decoration: none;
+
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 
-
-
-.AboutLink {
+#AboutLink {
     position:fixed;
     right:300px;
     top:70px;
+    
 }
 
-.PortfolioLink {
+#PortfolioLink {
     position:fixed;
     right:200px;
     top:70px;
 }
 
-.ContactLink {
+#ContactLink {
     position:fixed;
     right:100px;
     top:70px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+input[type=submit] {
+    width: 10%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #57d1ca;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.allimages {
+    float:left;
 }
